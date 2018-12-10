@@ -1,0 +1,22 @@
+{
+    "gitRepo": "C:\\repositories\\gitRepo",
+    "blacklist": ["\\FirstDirectoryToIgnore",
+        "\\SecondDirectoryToIgnore",
+        "\\Path\\To\\AnotherDirectoryToIgnore"],
+    "releases": [
+    {
+        "Version": "1.0",
+        "ReleaseTag": "1.0.101.0",
+        "StreamName": "PROJECT_1.0.101.0_REL",
+        "Maint":[{"name": "1_0_Patches", "tag": ""}]
+    },
+    {
+        "Version": "1.1",
+        "ReleaseTag": "1.1.202.0",
+        "StreamName": "PROJECT_1.1.202.0_REL",
+        "Maint":[{"name": "PROJECT_1.1.303.0_REL", "tag": "1.1.303.0"},
+            {"name": "PROJECT_1.1.404.0_REL", "tag": "1.1.404.0"},
+            {"name": "1_1_Patches", "tag": ""}]
+    }
+    ]
+}
